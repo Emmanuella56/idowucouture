@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@Layer base {
+    @font-face{
+        font-family: 'Poppins';
+        src: local('Poppins'), url(./fonts/Poppins-Medium.ttf) format('truetype');
+      }
+}
+
+@layer utilities {
+  .bg-linear-gradient {
+    background-image: linear-gradient(to bottom,  rgb(0, 0, 0), rgba(255, 255, 255), rgba(255, 255, 255), rgba(255, 255, 255), rgb(0, 0, 0));
+    /* background-clip: text; */
+    -webkit-text-fill-color: transparent;
+  }
+}
