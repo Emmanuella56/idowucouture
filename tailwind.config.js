@@ -32,20 +32,28 @@ export default {
 
 
 
-      animation:{
-        'infinite-scroll': 'infinite-scroll 25s linear infinite '
-      },
+      // animation:{
+      //   'infinite-scroll': 'infinite-scroll 25s linear infinite '
+      // },
 
 
       
-      keyframe:{
-        'infinite-scroll':{
-          from: {transform: 'translateX(0)'},
-          to: {transform: 'translateX(-100%)'},
-        }
+      // keyframe:{
+      //   'infinite-scroll':{
+      //     from: {transform: 'translateX(0)'},
+      //     to: {transform: 'translateX(-100%)'},
+      //   }
+      // },
+
+      animation: {
+        scroll: "scroll 20s linear infinite",
       },
-
-
+      keyframes: {
+        scroll: {
+          from: { transform: "translateX(0%)" },
+          to: { transform: "translateX(-50%)" }, 
+        },
+      },
 
       spacing:{
           px: '1px',	//1px	

@@ -107,7 +107,7 @@ const ContactUs = () => {
                     </div>
 
                     <div>
-                        <p className="text-[10px] font-[poppins] text-center">Copyright &#x00A9; 2023 3legant<spam className="text-gray-500">.</spam> All rights reserved </p>
+                        <p className="text-[10px] font-[poppins] text-center">Copyright &#x00A9; 2023 3legant<span className="text-gray-500">.</span> All rights reserved </p>
                     </div>
                 </div>
                 

@@ -10,12 +10,12 @@ import GolfGlooves from "../../assets/Golf Gloove.png"
 const Categories = () =>{
     
     return(
-        <div  className="p-7 font-[poppins] text-center tracking-wider md:px-20">
+        <div  className="p-7 font-[poppins] text-center tracking-wider md:pl-15 md:gap-10">
             <h1 className="text-4xl md:text-[50px] md:font-bold">Shop by Categories</h1>
             
-                <div className="grid grid-cols-2 gap-3 mt-5 md:grid-cols-3">
+                <div className="grid grid-cols-2 gap-3 items-center mt-5  md:grid-cols-3">
                     
-                    <div className="md:w-[350px] md:h-[400px]">
+                    <div className="md:w-[350px] md:h-[400px] ">
                         <img src={Stick} alt="Stick" className="w-full  bg-gray-200 " />
                         <p className="py-2 ">Golf Clubs</p>
                     </div>

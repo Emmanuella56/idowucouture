@@ -11,6 +11,8 @@ import NewsLetter from '../Pages/Content/NewsLetter.jsx'
 import NewsFeed from '../Pages/Content/NewsFeed.jsx'
 import ContactUs from '../Pages/Footer/ContactUs.jsx'
 
+
+
 const Home = () =>{
     return(
         <>
