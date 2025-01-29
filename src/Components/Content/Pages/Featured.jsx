@@ -3,11 +3,11 @@ import { GoDotFill } from "react-icons/go";
 import { FaRegCircleDot } from "react-icons/fa6";
 import { IoMdStar } from "react-icons/io";
 
-import GolfGloove from "../../assets/Golf Gloove.png";
-import GolfStickBag from "../../assets/GolfStick_Bag.png";
-import GolfBlackShoe from "../../assets/Golf_BlackShoe.png";
-import Glooves from "../../assets/Glooves.png";
-import Shirt from "../../assets/Mens Shirt.png";
+import GolfGloove from "../../../assets/Golf Gloove.png";
+import GolfStickBag from "../../../assets/GolfStick_Bag.png";
+import GolfBlackShoe from "../../../assets/Golf_BlackShoe.png";
+import Glooves from "../../../assets/Glooves.png";
+import Shirt from "../../../assets/Mens Shirt.png";
 
 const products = [
   { img: Glooves, title: "Men's Cabretta Glove", price: "$19.00" },
@@ -19,7 +19,7 @@ const products = [
 
 const Featured = () => {
   return (
-    <div className="pl-7 pt-8 md:p-15">
+    <div className="pl-7 pt-7     md:mt-20 md:px-15">
      
       <div className="flex justify-between items-center">
         <h2 className="font-bold text-3xl font-[poppins] md:text-[50px]">

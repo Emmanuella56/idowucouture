@@ -15,12 +15,12 @@ const ContactUs = () => {
 
     return(
 
-        <div className="bg-black text-white p-4 md:px-50  md:py-15 ">
+        <div id="#contact" className="bg-black  text-white p-4 pt-25      md:px-50  md:py-15  ">
            
-            <div className="md:flex md:justify-between md:pb-20">
+            <div className="md:flex md:justify-between">
 
                 <div>
-                     <h1 className="font-[poppins] pl-7 py-3 text-xl  md:px-0 md:text-2xl">3legant<span className="text-gray-500">.</span></h1>
+                     <h1 className="font-[poppins] py-3 text-xl  md:px-0 md:text-2xl">3legant<span className="text-gray-500">.</span></h1>
                     <p className="py-3 md:text-xl md:w-55">More than just a game. it's a lifestyle.</p>
                     <div className="flex gap-7  py-3">
                     <FiInstagram />
@@ -66,7 +66,7 @@ const ContactUs = () => {
                     
                     <hr className="w-full max-w-md border-gray-600 md:hidden"/>
 
-                    <div className="grid py-3 mb-8">
+                    <div className="grid py-3 ">
                         <a href="" className="py-3">Office</a>
                         <a href="" className="py-3">43111 Hai Trieu Street</a>
                         <a href="" className="py-3">District 1, HCMC</a>

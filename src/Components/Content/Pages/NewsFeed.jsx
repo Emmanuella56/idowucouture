@@ -1,19 +1,19 @@
 import React from "react";
-import PickGolfStick from "../../assets/ManPickGolfStick.jpeg"
-import GolfRide from "../../assets/GolfRide.jpeg"
-import ManGolfPose from "../../assets/ManGolfItemPosture.jpeg"
-import ManWalkGolf from "../../assets/ManWalkGolf.jpeg"
-import ManGolfing from "../../assets/ManGolfing.jpeg"
-import SetGolfRide from "../../assets/SetOfGolfRide.jpeg"
+import PickGolfStick from "../../../assets/ManPickGolfStick.jpeg"
+import GolfRide from "../../../assets/GolfRide.jpeg"
+import ManGolfPose from "../../../assets/ManGolfItemPosture.jpeg"
+import ManWalkGolf from "../../../assets/ManWalkGolf.jpeg"
+import ManGolfing from "../../../assets/ManGolfing.jpeg"
+import SetGolfRide from "../../../assets/SetOfGolfRide.jpeg"
 const NewsFeed = () =>{
 
     return (
         <div >
-            <div className="text-center tracking-wide my-10 ">
+            <div className="text-center tracking-wide mt-10      md:mt-15 ">
                 <h3 className="my-3 text-gray-500 font-bold">NEWSFEED</h3>
                 <h1 className="text-4xl my-3 font-[poppins]  text-bold">Instagram</h1>
                 <p className="tracking-tight">Follow us on social media for more discount & promotions</p>
-                <p className="m-3 text-gray-500 font-medium">@3elegant_official</p>
+                <p className="m-4 text-gray-500 font-medium">@3elegant_official</p>
             </div>
 
             <div className="grid grid-cols-2 md:flex ">

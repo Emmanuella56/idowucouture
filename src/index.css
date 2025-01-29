@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+html{
+  scroll-behavior: smooth;
+}
+
 @Layer base {
     @font-face{
         font-family: 'Poppins';
@@ -9,10 +15,17 @@
       }
 }
 
+
 @layer utilities {
   .bg-linear-gradient {
     background-image: linear-gradient(to bottom,  rgb(0, 0, 0), rgba(255, 255, 255), rgba(255, 255, 255), rgba(255, 255, 255), rgb(0, 0, 0));
-    /* background-clip: text; */
     -webkit-text-fill-color: transparent;
+  }
+}
+
+@layer utilities {
+  .active {
+      font-weight: bold;
+      /* color: rgba(33, 76, 12, 0.88); */
   }
 }

@@ -1,16 +1,16 @@
 import React from "react";
-import GolfShoe from "../../assets/GolfShoe.png"
-import GolfShoeTwo from "../../assets/GolfShoe (2).png"
-import GolfCup from "../../assets/Golf Cup.png"
+import GolfShoe from "../../../assets/GolfShoe.png"
+import GolfShoeTwo from "../../../assets/GolfShoe (2).png"
+import GolfCup from "../../../assets/Golf Cup.png"
 import { TiArrowRight } from "react-icons/ti";
 
 
 const LatestArticle = () =>{
 
     return(
-        <div className="font-[poppins] p-7 md:p-15">
+        <div id="latest" className="font-[poppins] p-7  ">
 
-            <div className="md:flex md:justify-between md:py-5">
+            <div className="md:flex md:justify-between md:py-2">
                     <h1 className="text-4xl font-semibold py-4 md:text-[50px]">Latest Articles</h1>
                 <a href=" " className=" flex items-center underline decoration-solid ml-50   md:text-xl">
                     View More 
@@ -19,7 +19,7 @@ const LatestArticle = () =>{
             </div>
            
 
-            <div className="md:flex justify-around">  
+            <div className="md:flex justify-around md:gap-3">  
                 <div className="my-4 md:w-[350px] md:text-xl">
                     <img src={GolfShoe} alt="FootWear" className="w-full" />
                     <p >Air Jordan x Travis Scoott Event</p>

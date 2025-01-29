@@ -1,13 +1,12 @@
 import React from "react";
 import { RxEnvelopeClosed } from "react-icons/rx";
-import GolfStick from "../../assets/Golf Stick.png";
-import GolfStickBall from "../../assets/GolfStickBall.png"
-import GolfGlooveBall from "../../assets/GolfGlooveBall.png"
+import GolfStickBall from "../../../assets/GolfStickBall.png"
+import GolfGlooveBall from "../../../assets/GolfGlooveBall.png"
 
 
 const NewsLetter = () => {
   return (
-    <div className="flex flex-col items-center bg-black text-white w-full  text-center p-20 md:overflow-hidden md:h-[350px] md:flex-row md:justify-between">
+    <div className="flex flex-col items-center bg-black text-white w-full  text-center p-20  md:overflow-hidden md:h-[350px] md:flex-row md:justify-between">
      
      <div className="hidden md:flex w-[650pxpx] md:ml-[-70px] h-[400px] overflow-hidden">
         <img

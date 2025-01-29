@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import GolfItems from "../../assets/Golf Items.png";
+import GolfItems from "../../../assets/Golf Items.png";
 
 const PromoTimer = () => {
   const [time, setTime] = useState({
@@ -32,7 +32,7 @@ const PromoTimer = () => {
 
     
          
-          <div className="p-7   text-white text-lg   md:w-full">
+          <div className="p-7  text-white text-lg        md:w-full">
             
             <h4 className="my-4 text-emerald-300 text-lg font-[poppins]">LIMITED EDITION</h4>
             <h1 className="text-3xl text-justify mb-4 font-[poppins]">Hurry up! 30% OFF</h1>
