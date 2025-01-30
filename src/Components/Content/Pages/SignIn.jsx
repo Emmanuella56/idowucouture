@@ -4,7 +4,7 @@ import { AiOutlineEyeInvisible } from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react'
 // import DisplayAfterSignUp from './DisplayAfterSignUp.jsx'
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from "yup";
 
 const SignIn = () => {
@@ -16,7 +16,7 @@ const SignIn = () => {
         .test("is valid", 
             "Enter a valid email or username",
         (value) => /^[a-zA-Z0-9_]+$/.test(value) ||                           // ✅ Allows alphanumeric usernames (no spaces)
-        /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value)          // ✅ Valid email check
+        /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]$/.test(value)          // ✅ Valid email check
         ),
         password: Yup.string()
         .required("password is required")
